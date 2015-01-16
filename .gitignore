@@ -1,3 +1,5 @@
+# исключить из pages всё, кроме pages/home/ и pages/404/
 
 /pages/**
-#!/pages/home/text.php
+!/pages/home/**
+!/pages/404/**
