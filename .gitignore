@@ -1,4 +1,4 @@
-# исключить из pages всё, кроме pages/home/ и pages/404/
+# исключить из pages всё, кроме home и 404
 /pages/**
 !/pages/home/**
 !/pages/404/**
@@ -11,3 +11,20 @@
 # игнорируем все компоненты, кроме меню
 /components/**
 !/components/menu/**
+
+# игнорируеми кеш кроме .gitkeep
+/cache/*
+!/cache/.gitkeep
+
+# игнорируеми set
+/set/**
+
+# игнорируеми environment
+/environment/**
+
+# игнорируеми fonts
+/fonts/**
+
+# игнорируеми images кроме favicon.png
+/images/**
+!/images/favicon.png
